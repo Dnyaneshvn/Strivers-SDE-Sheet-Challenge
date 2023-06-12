@@ -4,7 +4,7 @@ import java.util.*;
 public class Solution {
     public static List<Interval> mergeIntervals(Interval[] intervals) {
        
-         List<Interval> result = new ArrayList<>();
+        List<Interval> result = new ArrayList<>();
         
         Arrays.sort(intervals, new Comparator<Interval>(){
             public int compare(Interval i1,Interval i2)
